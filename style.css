@@ -57,6 +57,7 @@
     width: 50%;
     height: 500px;
     margin: 0 auto 20px;
+    border: #800020 solid;
 }
 
 /* Center the header elements */
@@ -66,11 +67,17 @@
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
 }
 
-/* Rules for the header element */
-/* Simple underline */
-h2.header {
-    text-decoration-line: underline;
-    margin-bottom: 40px;
+
+/* style the list items */
+.lists li {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
