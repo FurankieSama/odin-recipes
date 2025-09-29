@@ -1,27 +1,49 @@
+/* Set general rules */
 * {
-  box-sizing: border-box;
-  background-color: rgb(34, 149, 68);
-  text-align: center;
+    box-sizing: border-box;
+    color: rgb(221, 215, 215);
 }
-h1 {
+/* Starting with the main header of the index */
+#head {
+    display: block;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto 120px auto;
+    color: white;
+    background-color: #800020;
+    width: 70%;
 }
 
-ul {
-  list-style-type: none;
-  
+/* Style the list elements by placing them besides each other */
+
+/* Style the body */
+.recipes {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
 }
 
-a {
-    display: inline-block;
-    font-size: larger;
-    margin: 10px;
-    padding: 5px 10px;
-    background-color: rgb(91, 155, 49);
-    width: 200px;
-    box-shadow:2px 2px rgb(150, 150, 150);
-    border-radius: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+/* Style the elements of the list using a descendant */
+
+.recipes li {
+    margin: auto;
+    height: 400px;
+    width: 25%;
+    padding: 100px;
+    background-color: #c45a34;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Setting the text decoration to none */
+.recipes li a {
+    text-decoration: none;
 }
