@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Lemon bars</h1>
 
-    <img src="../images/lemon-bars.jpg" alt="A lemon bar" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
 
-    <h2>Description</h2>
-    <!-- The ingredients -->
-    <h3>Ingredients</h3>
-    <ul>
+<body>
+  <!-- Header: wondering whether I should style it the same way I styled the first one? -->
+  <!-- Well, fuck it -->
+  <h1 id="head">Lemon bars</h1>
+
+  <div><img src="../images/lemon-bars.jpg" alt="A lemon bar" class="dish-image" />
+
+  
+    <h2 class="header">Description</h2>
+
+    <h3 class="header">Ingredients</h3>
+
+    <!-- Ingredients  -->
+    <ul class="ingredients lists">
       <li>Flour</li>
       <li>Butter</li>
       <li>Sugar</li>
@@ -21,9 +29,11 @@
       <li>Lemons</li>
     </ul>
 
-    <h3>Steps</h3>
-    <ol>
-      <li>make the crust.</li>
+    <!-- Align  header to the center -->
+    <h3 class="header">Steps</h3>
+
+    <!--preparation steps -->
+    <ol class="steps lists">
       <li>Bake crust in the preheated oven until firm and golden.</li>
       <li>make the filling.</li>
       <li>Pour filling over the baked crust.</li>
@@ -31,5 +41,6 @@
       <li>When cooled, cut bars into uniform squares.</li>
     </ol>
     <a href="../index.html" rel="noopener">Home</a>
-  </body>
+</body>
+
 </html>
