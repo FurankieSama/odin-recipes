@@ -9,7 +9,7 @@
     text-align: center;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 60px auto;
     color: white;
     background-color: #800020;
     width: 70%;
@@ -46,4 +46,31 @@
 /* Setting the text decoration to none */
 .recipes li a {
     text-decoration: none;
+}
+
+/* Style the image of the dish */
+/* Set the width an the height, and add border */
+/* Align the image to the center */
+.dish-image {
+
+    display:block;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto 20px;
+}
+
+/* Center the header elements */
+/* Set a consistent size */
+.header {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Rules for the header element */
+/* Simple underline */
+h2.header {
+    text-decoration-line: underline;
+    margin-bottom: 40px;
 }
